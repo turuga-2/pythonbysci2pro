@@ -70,9 +70,6 @@ def main():
     field4.append(20)
     print(field4)
 
-
-
-
     return 0
 
 
