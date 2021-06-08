@@ -44,6 +44,32 @@ def main():
     print(field)
     print(f" There are {field.count(8)} instances of 8 in field")
 
+    # also applies to strings
+    print(f"sarah" * 4)
+
+    # slices
+    print(field[0:4])
+    print(field[0:9:3])
+    # range function used to create a generator
+    field3 = list(range(10))
+    print(field3)
+    print(field3[1:6])
+    print(field3[0:10:2])
+    # replacing using index
+    field3[4] = 24
+    print(f"The new field3 is {field3}")
+
+    # deleting an object from the list
+    print(len(field3))
+    del field3[4]
+    print(len(field3))
+
+    # appending items to a list
+    # we use the append() method
+    field4 = list()
+    field4.append(20)
+    print(field4)
+
 
 
 
