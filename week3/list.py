@@ -3,9 +3,9 @@ import sys
 
 def main():
     # creating lists
-    l = list()
-    print(l, type(l))
-    print(f"The length of the list is {len(l)}")
+    lee = list()
+    print(lee, type(lee))
+    print(f"The length of the list is {len(lee)}")
 
     field = [2, 4, 6, 8, 10]
     print(f"the field is {field} and it's length is {len(field)}")
