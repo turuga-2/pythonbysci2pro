@@ -4,9 +4,9 @@ import math
 
 
 def calculate(a, b, c):
-    #this function is to calculate quadratic functions
-    #the function accepts float parameters
-    #its return types should also be floats
+    # this function is to calculate quadratic functions
+    # the function accepts float parameters
+    # its return types should also be floats
     discriminant = b ** 2 - 4 * a * c
     if discriminant < 0:
         return None, None
