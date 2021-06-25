@@ -2,18 +2,14 @@ import sys
 import random
 
 def main():
-    word = "pretty"
-    print(f"healthy" + " "+ word)
-
-   # live = random.choice()
-    # print(live)
-    for x in "banana":
-        print(x)
-    baby = "I will always love you"
-    if "live" not in baby:
-        print("Love is in the air")
-    else:
-        print("It's gonna be a disaster")
+    list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    cum_list = []
+    y = 0
+    for x in range(0, len(list)):
+        y += list[x]
+        cum_list.append(y)
+    print(list)
+    print(cum_list)
     return 0
 
 

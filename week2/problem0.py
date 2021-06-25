@@ -8,7 +8,6 @@ def main():
 
     print(f'Hello my name is {name} and I am {age} years old.')
 
-
     return 0
 
 
