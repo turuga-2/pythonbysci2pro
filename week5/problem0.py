@@ -6,7 +6,6 @@ def main():
     l = list(random.sample(range(0, 100), 100))
     print(l)
 
-    # new_1 = [sum(l[0: x + 1]) for x in range(0, len(l))]
     new_1 = []
     n = 0
     for x in range(0, len(l)):
@@ -14,12 +13,12 @@ def main():
         new_1.append(n)
     print(new_1)
 
-    new_2 = list(q+r for q, r in zip(l, l[1:]))
+    new_2 = list(q + r for q, r in zip(l, l[1:]))
     new_2.append(0)
     print(new_2)
     print(len(new_2))
 
-    new_3 = list(a+ b+ c for a, b, c in zip(l, l[2:], l[4:]))
+    new_3 = list(a + b + c for a, b, c in zip(l, l[2:], l[4:]))
     new_3.append(0)
     print(new_3)
     print(len(new_3))

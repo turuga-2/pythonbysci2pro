@@ -6,8 +6,7 @@ def main():
     x = 1
     y = (pow(x, 3) - 9 * x) / (pow(x, 2) - 2 * x + 1)
     try:
-
-    except  ZeroDivisionError:
+        except  ZeroDivisionError:
         return 0
 
     print(y)
