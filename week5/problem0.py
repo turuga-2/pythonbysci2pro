@@ -18,6 +18,8 @@ def main():
     print(new_2)
     print(len(new_2))
 
+    # this is quite advanced syntax; impressive
+    # persuade me that this is not a google answer ;-)
     new_3 = list(a + b + c for a, b, c in zip(l, l[2:], l[4:]))
     new_3.append(0)
     print(new_3)
