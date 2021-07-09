@@ -12,7 +12,8 @@ def palindrome():
 
 
 def main():
-    print(f"Hello this is to check whether the string is a palindrome")
+    print(f"Hello this is to check whether the string is a palindrome a palindrome"
+          f"is a word that spells the same from the beginning and the end")
 
     palindrome()
 
