@@ -1,7 +1,13 @@
 import sys
 
+"""
+Notes:
+- Excellent!
+"""
 
+# todo: can you come up with a better name?
 def string_reversal(test_string):
+    # todo: add a docstring; see class notes on how to do this
     reversed_string = ""
     index = len(test_string)
     while index > 0:
