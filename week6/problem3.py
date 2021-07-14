@@ -7,7 +7,7 @@ Notes:
 
 
 # todo: can you come up with a better name?
-def reversing(test_string):
+def reversing_strings(test_string):
     # todo: add a docstring; see class notes on how to do this
     '''uses the input test_string and reverses it'''
     reversed_string = ""
@@ -22,7 +22,7 @@ def reversing(test_string):
 def main():
     print(f"STRING REVERSAL!!")
     test_string = input(f"The string to be reversed is : ")
-    reversing(test_string)
+    reversing_strings(test_string)
 
     return 0
 
