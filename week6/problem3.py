@@ -5,9 +5,11 @@ Notes:
 - Excellent!
 """
 
+
 # todo: can you come up with a better name?
-def string_reversal(test_string):
+def reversing(test_string):
     # todo: add a docstring; see class notes on how to do this
+    '''uses the input test_string and reverses it'''
     reversed_string = ""
     index = len(test_string)
     while index > 0:
@@ -20,8 +22,7 @@ def string_reversal(test_string):
 def main():
     print(f"STRING REVERSAL!!")
     test_string = input(f"The string to be reversed is : ")
-    string_reversal(test_string)
-
+    reversing(test_string)
 
     return 0
 
