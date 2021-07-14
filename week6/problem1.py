@@ -3,6 +3,8 @@ import sys
 
 
 def maxmini(example1):
+    # todo: add a docstring; see class notes on how to do this
+    # fixme: do not use max() and min(); come up with your own way to determine min and max
     maximum = max(example1)
     minimum = min(example1)
     print(f"the maximum in the list is {maximum} , while the minimum is {minimum} .")
